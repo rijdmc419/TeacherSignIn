@@ -12,7 +12,7 @@ document.querySelector ('.In').addEventListener('click', function() {
 	day = d.getDay();
 	hour = d.getHours();
 	minute = d.getMinutes();
-	document.querySelector('.time-in').textContent = month;
+	document.querySelector('.time-in').textContent = d;
 
 });
 
